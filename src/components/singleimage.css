@@ -1,0 +1,34 @@
+.box div{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform-origin: center;
+	transform: rotateY(calc(var(--v)*36deg)) translateZ(300px);
+	-webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#000400);
+}
+ .box div img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+
+.spin {
+	animation: spin 1s linear infinite;
+
+}
+@keyframes spin{
+	0%{
+		filter: hue-rotate(0deg);
+		transform: perspective(1500px) rotateY(0deg);
+		-webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#000400);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+		transform: perspective(1500px) rotateY(360deg);
+		-webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#000400);
+	}
+}
