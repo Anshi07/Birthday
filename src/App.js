@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Carousel from './components/carousel';
+import Card from './components/Card';
 
 
 
@@ -11,6 +12,7 @@ function App() {
        <div> 
        <Navbar />
        <Carousel />
+       <Card />
    
       </div>
     
