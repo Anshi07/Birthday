@@ -13,10 +13,10 @@ function App() {
     <>
        <div> 
        <Navbar />
-       <Carousel />
+       {/* <Carousel />
        <Card />
        <PhotoGallery />
-       <Love />
+       <Love /> */}
    
       </div>
     
