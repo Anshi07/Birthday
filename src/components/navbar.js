@@ -1,6 +1,6 @@
 
 import {Navbar} from 'react-bootstrap';
-import './carousel.css';
+import './navbar.css';
 const CustomNavbar = () => {
     return (
         <Navbar className="justify-content-center" bg="dark" variant="dark" sticky="top"  expand="lg" style={{padding : "0px"}} >

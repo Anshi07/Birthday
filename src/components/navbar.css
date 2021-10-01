@@ -1,0 +1,13 @@
+.navbar-brand {
+    font-family: 'Cormorant Garamond';
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+   
+  }
+  .navbar-brand p {
+      margin: 0px 20px;
+      font-size: 50px;
+  
+  }
