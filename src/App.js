@@ -11,17 +11,17 @@ import Love from './components/Love';
 function App() {
   return (
     <>
-       <div> 
-       <Navbar />
-       <Carousel />
-       <Card />
-       <PhotoGallery />
-       <Love />
-   
+      <div>
+        <Navbar />
+        <Carousel />
+        <Card />
+        <PhotoGallery />
+        <Love />
+
       </div>
-    
-    
-     </>
+
+
+    </>
   );
 }
 
