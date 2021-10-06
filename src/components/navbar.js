@@ -3,7 +3,7 @@ import { Navbar } from 'react-bootstrap';
 import './navbar.css';
 const CustomNavbar = () => {
   return (
-    <Navbar className="justify-content-center" bg="dark" variant="dark" sticky="top" style={{ padding: "0px", overflowX: "hidden" }} >
+    <Navbar className="justify-content-center" bg="dark" variant="dark" sticky="top" expand="lg" style={{ padding: "0px" }} >
       <Navbar.Brand >
         <img
           alt=""
@@ -13,7 +13,7 @@ const CustomNavbar = () => {
           className="d-inline-block align-top"
 
         />{' '}
-        <p className="text-center">Happy Birthday</p>
+        <p>Happy Birthday</p>
       </Navbar.Brand>
 
     </Navbar>
