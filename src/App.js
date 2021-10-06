@@ -4,6 +4,7 @@ import Carousel from './components/carousel';
 import Card from './components/Card';
 import PhotoGallery from './components/photogallery';
 import Love from './components/Love';
+import MyAudio from './components/audio';
 
 
 
@@ -16,9 +17,9 @@ function App() {
        <Carousel />
        <Card />
        <PhotoGallery />
+       <MyAudio />
        <Love />
-   
-      </div>
+       </div>
     
     
      </>

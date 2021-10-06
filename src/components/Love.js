@@ -56,7 +56,7 @@ class Love extends React.Component {
 	</svg>
 </div>
 
-<div className="background"  onMouseOut={this.togglePlay}></div>
+<div className="background"  onClick={this.togglePlay}></div>
 <audio ref={this.media} onTimeUpdate={this.initProgressBar} onEnded={this.onEnded} id="audio">
             <source src={path} type="audio/mp3" />
            </audio>

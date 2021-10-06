@@ -1,17 +1,18 @@
  .love{
     position: relative;
-    min-height: 24vh;
+    min-height: 40vh;
     background: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
   }
 
   .heart {
     position: relative;
     width: 100vmin;
-    height: 45vmin;
+    height: 40vmin;
     background: #000;
     filter: brightness(400%);
     overflow: hidden;
