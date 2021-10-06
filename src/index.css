@@ -6,13 +6,8 @@
   
   body{
 	  min-height: 100vh;
-	  min-width: 750px;
-	  /* background:#3c3838; */
-	  overflow-x: hidden;
-	  /* text-align: center; */
-	  /* background: #222; */
+	  
+	  
+	  overflow-x: hidden!important;
 	 
-	  /* font-family: 'Cormorant Garamond', serif; */
-	  /* font-family: 'Cormorant Garamond', serif; */
-/* font-family: 'Great Vibes', cursive; */
   }
